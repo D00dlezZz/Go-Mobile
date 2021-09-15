@@ -156,7 +156,6 @@ position: absolute;
   padding-top: 30px;
   padding-left: 15px;
   width: 278px;
-  margin: 0 auto;
   height: 400px;
   overflow: auto;
   z-index: 2;
@@ -215,6 +214,7 @@ ul {
   border: none;
   background: none;
   cursor: pointer;
+  align-items: center;
 }
 
 .block__close:before,
@@ -321,5 +321,46 @@ ul {
       width: 37px;
       height: 50px;
       margin-right: 35px;
+  }
+
+  .block {
+      width: 600px;
+      height: 600px;
+      padding-top: 10px;
+      padding-left: 45px;
+  }
+  .block___info {
+      width: 479px;
+      margin-bottom: 40px;
+  }
+  .block__title {
+      font-size: 40px;
+      margin-top: 0;
+  }
+
+  .block__text {
+    font-size: 23px;
+    line-height: 130%;
+  }
+
+  .block__item {
+    font-size: 23px;
+    line-height: 130%; 
+  }
+
+  .block__close {
+      height: 30px;
+      width: 30px;
+  }
+
+  .block__close:before,
+  .block__close:after {
+    position: absolute;
+    left: 17px;
+    content: " ";
+    height: 30px;
+    width: 2px;
+    background-color: #ffffff;
+    border-radius: 3px;
   }
 }
