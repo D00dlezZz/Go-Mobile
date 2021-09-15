@@ -5,7 +5,6 @@ body {
   width: 100%;
   height: 100%;
   font-family: Roboto, sans-serif;
- 
 }
 
 .advertising {
@@ -85,9 +84,9 @@ body {
 }
 
 .footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 320px;
   height: 66px;
   background: #0e0e0e;
@@ -118,8 +117,8 @@ body {
 }
 
 .footer__btn {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .footer__rules {
   color: #ffffff;
@@ -134,21 +133,83 @@ body {
 }
 
 .block {
-    display: none;
-    position: absolute;
-    top: 15%;
-    background-color: #171717;
-    color: #FFFFFF;
-    padding-left: 15px;
-    width: 279px;
-    margin: 0 auto;
-    height: 400px;
-    overflow: auto;
+  display: none;
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  background-color: #171717;
+  color: #ffffff;
+  padding-top: 30px;
+  padding-left: 15px;
+  width: 278px;
+  margin: 0 auto;
+  height: 400px;
+  overflow: auto;
 }
 .overlay {
-    display: none;
-    background-color: rgba(0,0,0,0.7); 
-    height: 100%;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.block___info {
+  width: 222px;
+}
+
+.block__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 15px;
+  text-align: center;
+}
+
+.block__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 130%;
+}
+
+.block__item {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 130%;
+  margin-bottom: 15px;
+}
+
+li::marker {
+  color: #ffcc00;
+}
+
+ul {
+  padding-left: 15px;
+}
+
+.block__close {
     position: absolute;
-    width: 100%;
+    top: 10px;
+    right: 25px;
+  border: none;
+  background: none;
+}
+
+.block__close:before,
+.block__close:after {
+  position: absolute;
+  left: 15px;
+  content: " ";
+  height: 19px;
+  width: 2px;
+  background-color: #ffffff;
+  border-radius: 3px;
+}
+.block__close:before {
+  transform: rotate(45deg);
+}
+.block__close:after {
+  transform: rotate(-45deg);
 }
