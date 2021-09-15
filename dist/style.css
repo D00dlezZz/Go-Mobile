@@ -29,18 +29,14 @@ body {
 .advertising__heading {
   font-style: normal;
   font-weight: 900;
-  font-size: 53px;
+  font-size: 80px;
   line-height: 69px;
   color: #ffcc00;
-  margin-top: 8px;
+  margin-top: 30px;
   margin-bottom: 0;
 }
-
-.advertising__insurance {
-  height: 59px;
-}
 .advertising__insurance_first {
-  font-size: 31.2px;
+  font-size: 45px;
   font-style: normal;
   font-weight: bold;
   margin: 0;
@@ -49,7 +45,7 @@ body {
 .advertising__insurance_second {
   font-style: normal;
   font-weight: bold;
-  font-size: 22.2px;
+  font-size: 32.2px;
   margin: 0;
 }
 
@@ -170,7 +166,7 @@ body {
 .block__title {
   font-style: normal;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 15px;
   text-align: end;
 }
