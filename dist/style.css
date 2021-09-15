@@ -169,7 +169,7 @@ body {
   height: 400px;
   overflow: auto;
   z-index: 2;
-  animation: appeared 1.5s ease;
+  animation: appeared 1.2s ease;
 }
 .overlay {
   display: none;
