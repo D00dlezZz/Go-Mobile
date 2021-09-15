@@ -10,7 +10,7 @@ body {
 .advertising {
   max-width: 320px;
   padding: 21px;
-  background: url(./img/background.png);
+  background: url(./img/background.png) no-repeat;
 }
 
 .container {
@@ -156,6 +156,7 @@ body {
 
 .block___info {
   width: 222px;
+  margin-top: 20px;
 }
 
 .block__title {
@@ -163,7 +164,7 @@ body {
   font-weight: bold;
   font-size: 15px;
   line-height: 15px;
-  text-align: center;
+  text-align: end;
 }
 
 .block__text {
