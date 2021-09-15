@@ -3,7 +3,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   max-width: 100%;
-  max-height: 100%;
+  height: 100%;
   font-family: Roboto, sans-serif;
 }
 
@@ -31,30 +31,42 @@ body {
   line-height: 69px;
   color: #ffcc00;
   margin-top: 8px;
+  margin-bottom: 0;
 }
 
 .advertising__insurance {
+  height: 59px;
+}
+.advertising__insurance_first {
+  font-size: 31.2px;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0;
+}
+
+.advertising__insurance_second {
   font-style: normal;
   font-weight: bold;
   font-size: 22.2px;
-  line-height: 22px;
-  margin-top: 8px;
-}
-.insurance {
-  font-size: 31.2px;
+  margin: 0;
 }
 
 .advertising__text {
   font-style: normal;
   font-weight: 400;
   font-size: 10.5px;
-  line-height: 12px;
   margin-top: 17px;
+  line-height: 14px;
 }
 
 .first-line {
   font-size: 12.5px;
-  line-height: 14px;
+  margin-bottom: 5px;
+}
+
+.second-line {
+    margin-top: 0;
+    line-height: 12px;
 }
 
 .advertising__button {
@@ -72,6 +84,35 @@ body {
 }
 
 .footer {
+    width: 320px;
   height: 66px;
   background: #0e0e0e;
 }
+
+.footer__info {
+    display: flex;
+    max-width: 320px;
+}
+
+.footer__download {
+  display: flex;
+  width: 144px;
+  justify-content: space-between;
+}
+
+.footer__apps {
+  height: 20.5px;
+  width: 68.27px;
+}
+.footer__rules {
+  color: #ffffff;
+  border: none;
+  background: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  text-decoration-line: underline;
+}
+
