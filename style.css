@@ -131,6 +131,7 @@ body {
   line-height: 12px;
   text-align: center;
   text-decoration-line: underline;
+  cursor: pointer;
 }
 
 .block {
@@ -149,10 +150,12 @@ body {
   margin: 0 auto;
   height: 400px;
   overflow: auto;
+  z-index: 2;
 }
 .overlay {
   display: none;
   background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
   height: 100%;
   position: absolute;
   width: 100%;
@@ -200,6 +203,7 @@ ul {
   right: 25px;
   border: none;
   background: none;
+  cursor: pointer;
 }
 
 .block__close:before,
