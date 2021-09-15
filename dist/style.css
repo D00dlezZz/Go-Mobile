@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  max-width: 100%;
+  width: 100%;
   height: 100%;
   font-family: Roboto, sans-serif;
 }
@@ -65,8 +65,8 @@ body {
 }
 
 .second-line {
-    margin-top: 0;
-    line-height: 12px;
+  margin-top: 0;
+  line-height: 12px;
 }
 
 .advertising__button {
@@ -84,16 +84,25 @@ body {
 }
 
 .footer {
-    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  width: 320px;
   height: 66px;
   background: #0e0e0e;
 }
 
-.footer__info {
-    display: flex;
-    max-width: 320px;
+.footer__container {
+  display: block;
+  max-width: 320px;
 }
-
+.footer__info {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 278px;
+  margin-top: 10px;
+}
 .footer__download {
   display: flex;
   width: 144px;
@@ -101,8 +110,15 @@ body {
 }
 
 .footer__apps {
+  display: flex;
+  justify-content: space-between;
   height: 20.5px;
   width: 68.27px;
+}
+
+.footer__btn {
+    display: flex;
+    justify-content: center;
 }
 .footer__rules {
   color: #ffffff;
@@ -115,4 +131,3 @@ body {
   text-align: center;
   text-decoration-line: underline;
 }
-
