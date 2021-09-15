@@ -4,7 +4,8 @@ body {
   box-sizing: border-box;
   width: 100%;
   height: 100%;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, sans-serif;  
+
 }
 
 .wrapper {
@@ -168,7 +169,7 @@ body {
   height: 400px;
   overflow: auto;
   z-index: 2;
-  animation: appeared 1.5s;
+  animation: appeared 1.5s ease;
 }
 .overlay {
   display: none;

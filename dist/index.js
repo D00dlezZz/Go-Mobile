@@ -10,7 +10,7 @@ btn.addEventListener('click', () => {
 
 infoBtn.addEventListener('click', () => {
     blockInfo.style.display = 'block';
-    overlay.style.display = 'flex';
+    overlay.style.display = 'block';
 });
 
 closeBtn.addEventListener('click', () => {
