@@ -69,13 +69,13 @@ body {
   animation: slide 2s;
 }
 
-.first-line {
+.advertising__firstLine {
   font-size: 12.5px;
   line-height: 14px;
   margin-bottom: 5px;
 }
 
-.second-line {
+.advertising__secondLine {
   margin-top: 0;
   line-height: 12px;
 }
@@ -246,7 +246,7 @@ ul {
 
 @media screen and (min-width: 1024px) {
   .wrapper {
-    background: url(./img/background1.png) repeat;
+    background: url(./img/background-des.png) repeat;
     background-size: cover;
   }
   .container {
@@ -278,11 +278,11 @@ ul {
   .advertising__text {
     width: 529px;
   }
-  .first-line {
+  .advertising__firstLine {
     font-size: 27px;
     line-height: 32px;
   }
-  .second-line {
+  .advertising__secondLine {
     font-size: 22.5px;
     line-height: 26px;
   }
