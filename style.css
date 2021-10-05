@@ -129,6 +129,12 @@ body {
   justify-content: space-between;
 }
 
+.footer__club {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
 .footer__apps {
   display: flex;
   justify-content: space-between;
@@ -327,10 +333,15 @@ ul {
     height: 43px;
     margin-right: 33px;
   }
+
+  .footer__apps img {
+    width: 100%;
+  }
+
   .footer__club {
-    width: 37px;
+    width: 50px;
     height: 50px;
-    margin-right: 35px;
+    margin-right: 20px;
   }
 
   .block {
